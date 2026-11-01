@@ -1,32 +1,26 @@
-# student-mark-calculator
 
-#include <stdio.h>
+# Student Marks Calculator
 
-int main()
-{
-    int mark1, mark2, mark3;
-    int total;
-    float average;
+## About
+This is my first C programming project.
 
-    printf("Enter 3 subject marks: ");
+It calculates the total and average marks of three subjects.
 
-    scanf("%d %d %d", &mark1, &mark2, &mark3);
+## Features
+- Enter three subject marks.
+- Calculate total marks.
+- Calculate average marks.
+- Display PASS or FAIL.
 
-    total = mark1 + mark2 + mark3;
+## Programming Language
+C
 
-    average = total / 3.0;
+## Concepts Used
+- Variables
+- Data Types
+- Input and Output
+- Arithmetic Operators
+- If-Else Statements
 
-    printf("Total marks = %d\n", total);
-    printf("Average = %.2f\n", average);
-
-    if (average >= 40)
-    {
-        printf("Result = PASS\n");
-    }
-    else
-    {
-        printf("Result = FAIL\n");
-    }
-
-    return 0;
-}
+## Created By
+Fathimath Hanan
